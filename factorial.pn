@@ -1,8 +1,7 @@
-# this is a factorial function
+# this is  factorial function
 factorial = (n):
     total = 1
     n to 1 (i):
-        # Multiply the running total.
         total *= i.
     total.
 
@@ -11,16 +10,3 @@ factorial = (n):
     '! is: ' print
     factorial (i) string print
     "\n" print.
-
-10 times (i):
-    i string print
-    '! is: ' print
-    factorial (i) string print
-    "\n" print.
-
-factorial = (n):
-    total = 1
-    n to 1 (i):
-        # Multiply the running total.
-        total *= i.
-    total.
